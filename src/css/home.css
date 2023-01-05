@@ -1,0 +1,63 @@
+
+.wrap{
+    @apply mt-10 font-notoSansKR  xs:w-[460px] w-full mx-auto;    
+}
+
+.wrap_en{
+    @apply mt-10 font-roboto  xs:w-[460px] w-full mx-auto;    
+}
+
+.content {
+    @apply bg-[#fff] mx-2;
+}
+
+.top{
+    @apply bg-[#fff] w-full border-t-[5px] border-[#004C7E] ;
+}
+
+.ti_top{
+    @apply bg-[#fff] w-full border-t-[5px] border-[#000000] ;
+}
+
+.top_gap {
+    @apply p-7;
+}
+
+
+
+
+
+.center{
+    @apply w-full p-7 text-left ; 
+}
+
+.center h2{
+    @apply text-xl font-bold text-[#30363A]; 
+}
+
+.center > p {  
+    @apply w-full py-7 text-[#757575] ; 
+}
+
+.center .mail {
+    @apply w-full text-xl mb-7 bg-[#fff] font-black break-all; 
+}
+
+.center button {
+    @apply p-3 px-6 bg-[#004C7E] hover:bg-[#46cae7] rounded-full text-[#fff] ;
+}
+
+
+.center .ti_button {
+    @apply p-3 px-6 bg-[#000] hover:bg-[#004C7E] rounded-full text-[#fff]  ;
+}
+
+
+
+.bottom {
+    @apply p-7 text-xs bg-[#F5F5F5] text-[#757575];
+}
+
+.bottom a {
+    @apply text-[#2156e7] font-semibold;
+}
